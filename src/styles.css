@@ -2,7 +2,7 @@
   color-scheme: dark;
   --background: #050a0a;
   --surface: rgba(255, 255, 255, 0.03);
-  --surface-muted: rgba(255, 255, 255, 0.05);
+  --surface-muted: rgba(255, 255, 255, 0.15);
   --surface-dark: #000000;
   --text-primary: #f0f0f0;
   --text-secondary: #b0b0b0;
