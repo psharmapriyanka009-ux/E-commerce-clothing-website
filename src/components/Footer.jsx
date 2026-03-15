@@ -8,7 +8,7 @@ function Footer() {
           <p className="eyebrow">VERVE</p>
           <h3>Premium wardrobe essentials, designed for confident everyday wear.</h3>
           <p style={{ marginTop: '1rem', fontWeight: '600' }}>
-            Contact Us: <a href="tel:945919514" style={{ color: 'inherit', textDecoration: 'none' }}>945919514</a>
+            Contact Us: <a href="tel:9459195154" style={{ color: 'inherit', textDecoration: 'none' }}>945919514</a>
           </p>
         </div>
         <div>
