@@ -11,48 +11,48 @@ function HomePage() {
   return (
     <div>
       <section className="hero-section">
-        <div className="container hero-grid">
-          <div className="hero-copy">
-            <p className="eyebrow">New season essentials</p>
-            <h1>Elevated essentials with modern tailoring and a premium fashion feel.</h1>
-            <p>
-              Discover curated menswear and womenswear collections made for sharp silhouettes,
-              effortless layering, and a refined everyday wardrobe.
-            </p>
-            <div className="hero-actions">
-              <Link className="button button-dark" to="/collections">
-                Shop Collections
-              </Link>
-              <Link className="button button-light" to="/about">
-                Our Brand Story
-              </Link>
-            </div>
-            <div className="hero-stats">
-              <div>
-                <strong>120+</strong>
-                <span>Premium SKUs</span>
-              </div>
-              <div>
-                <strong>48h</strong>
-                <span>Express dispatch</span>
-              </div>
-              <div>
-                <strong>4.9/5</strong>
-                <span>Customer rating</span>
+        <div className="container asymmetric-grid">
+          <div className="hero-main-panel animate-reveal">
+            <div className="editorial-image-wrap">
+              <img
+                src="/hero-image.png"
+                alt="Premium fashion collection storefront"
+              />
+              <div className="overlapping-text">
+                <h1 className="animate-reveal delay-1">VERVE</h1>
               </div>
             </div>
           </div>
-          <div className="hero-visual">
-            <div className="hero-card large">
-              <img
-                src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=80"
-                alt="Model wearing premium fashion collection"
-              />
+          <div className="hero-side-panel animate-reveal delay-2">
+            <span className="tag-label">The best look anytime anywhere</span>
+            <h3>Paris / Achievement is about beauty</h3>
+            <p>
+              Bringing you the elements of style. Clothes that matter.
+              Designed for sharp silhouettes and refined everyday wardrobe.
+            </p>
+            <div className="hero-actions" style={{ marginTop: '2rem' }}>
+              <Link className="button button-dark dynamic-border" to="/collections">
+                Take Style Seriously
+              </Link>
             </div>
-            <div className="hero-card small floating-card">
-              <p className="eyebrow">Trending Edit</p>
-              <h3>Minimal pieces with statement silhouettes.</h3>
-              <Link to="/collections">Explore the edit →</Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-space">
+        <div className="container">
+          <div className="asymmetric-grid" style={{ alignItems: 'end' }}>
+            <div style={{ gridColumn: '1 / 6' }}>
+              <h2 className="animate-reveal">Get Decorated With Our Clothes</h2>
+              <p className="animate-reveal delay-1">Bringing you the elements of style.</p>
+            </div>
+            <div style={{ gridColumn: '7 / 13' }}>
+              <div className="editorial-image-wrap animate-reveal delay-2">
+                <img 
+                  src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80" 
+                  alt="Fashion bag" 
+                />
+              </div>
             </div>
           </div>
         </div>

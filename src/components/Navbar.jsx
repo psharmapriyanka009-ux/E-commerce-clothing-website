@@ -18,9 +18,8 @@ function Navbar() {
   return (
     <header className="navbar-wrap">
       <div className="container navbar">
-        <Link className="brand-mark" to="/" onClick={() => setIsMenuOpen(false)}>
-          <span className="brand-dot" />
-          Luxe Thread Co.
+        <Link className="brand-mark verve-logo" to="/">
+          VERVE
         </Link>
 
         <button

@@ -5,8 +5,11 @@ function Footer() {
     <footer className="footer">
       <div className="container footer-grid">
         <div>
-          <p className="eyebrow">Luxe Thread Co.</p>
+          <p className="eyebrow">VERVE</p>
           <h3>Premium wardrobe essentials, designed for confident everyday wear.</h3>
+          <p style={{ marginTop: '1rem', fontWeight: '600' }}>
+            Contact Us: <a href="tel:945919514" style={{ color: 'inherit', textDecoration: 'none' }}>945919514</a>
+          </p>
         </div>
         <div>
           <p className="footer-title">Explore</p>
@@ -40,7 +43,7 @@ function Footer() {
         </div>
       </div>
       <div className="container footer-bottom">
-        <span>© 2026 Luxe Thread Co.</span>
+        <span>© 2026 VERVE</span>
         <span>Crafted for a premium shopping experience.</span>
       </div>
     </footer>
